@@ -3,7 +3,7 @@ import * as React from "react";
 import { FB, IG, Twitter } from "../social-links";
 import styles from "./Footer.module.scss";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <div className={styles.container}>
       <div className={styles.socials}>
@@ -40,6 +40,4 @@ const Footer = () => {
       <p>&copy; 2022 Church of God. All rights reserved.</p>
     </div>
   );
-};
-
-export default Footer;
+}
