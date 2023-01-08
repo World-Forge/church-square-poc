@@ -1,6 +1,7 @@
 import * as React from "react";
 import styles from "./NavigationBar.module.scss";
 import Link from "next/link";
+//import Resources from "@/pages/resources";
 
 export default function NavigationBar() {
   return (

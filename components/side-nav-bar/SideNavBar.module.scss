@@ -1,0 +1,32 @@
+.parent {
+    border: 1px solid black;
+    display:table;
+    background-color:#7e827f;
+  }
+  .child {
+    display: table-cell;
+    border-right: 0.2em solid black;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+  .title{
+    font-size: 2.5em;
+    text-align: center;
+    margin-top:-0.7em;
+  }
+  .subtitle{
+    font-size: 2em;
+    text-align: center;
+  }
+  .link{
+    list-style: none;
+    margin-right:1em;
+    margin-left:-1em;
+    color:#cacbcc;
+    font-size:1em;
+  }
+  li{
+    padding-bottom:2em;
+  }
+  
+  
